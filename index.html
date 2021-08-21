@@ -2,6 +2,18 @@
     <head>
         <title>中考分数榜</title>
         <link rel="stylesheet" type="text/css" href="https://dovuq.github.io/theme.css">
+        <script>
+            MathJax = {
+                tex:{
+                        inlineMath: [['$', '$'], ['\\(', '\\)']]
+                    },
+                svg:{
+                        fontCache: 'global'
+                    }
+                };
+        </script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/babel-polyfill/7.8.7/polyfill.js?features=es6"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.0.5/es5/tex-chtml.js" async></script>
         <style>
             td
             {
@@ -9,7 +21,7 @@
             }
             .gold
             {
-                color: #ffcc33;
+                color: #ff9933;
             }
             .silver
             {
@@ -17,7 +29,7 @@
             }
             .bronze
             {
-                color: #cc9966;
+                color: #cc6666;
             }
         </style>
     </head>
@@ -52,9 +64,9 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td>0</td>
-                <td>1</td>
+                <td class="gold">10[1]</td>
+                <td class="gold">10</td>
+                <td class="gold">1</td>
             </tr>
             <tr>
                 <td>911-04</td>
@@ -69,7 +81,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-10</td>
@@ -84,7 +96,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-11</td>
@@ -99,7 +111,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-12</td>
@@ -114,7 +126,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-14</td>
@@ -129,7 +141,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-17</td>
@@ -144,7 +156,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-19</td>
@@ -159,36 +171,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>911-35</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
-                <td>1</td>
-            </tr><tr>
-                <td>911-41</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
         </table>
         <p></p>
@@ -204,10 +187,10 @@
             <tr>
                 <td>xrdrsp</td>
                 <td></td>
+                <td class="gold">100m(10)[1]</td>
                 <td></td>
-                <td></td>
-                <td>0</td>
-                <td>1</td>
+                <td class="gold">10</td>
+                <td class="gold">1</td>
             </tr>
             <tr>
                 <td>911-10</td>
@@ -215,7 +198,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-11</td>
@@ -223,7 +206,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-12</td>
@@ -231,7 +214,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-14</td>
@@ -239,7 +222,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-17</td>
@@ -247,7 +230,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-19</td>
@@ -255,23 +238,7 @@
                 <td></td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>911-35</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>911-41</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>911-04</td>
@@ -279,8 +246,12 @@
                 <td>N/A(0)</td>
                 <td></td>
                 <td>0</td>
-                <td>1</td>
+                <td>2</td>
             </tr>
         </table>
+        <p></p>
+        <ul>
+            <li>08/18/2021-09/05/2021 各地区游泳中考</li>
+        </ul>
     </body>
 </html>
